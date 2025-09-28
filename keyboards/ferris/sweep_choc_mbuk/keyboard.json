@@ -7,18 +7,6 @@
         "enabled": true,
         "matrix": [0, 0]
     },
-    "config_h_features": {
-        "audio": false,
-        "backlight": false,
-        "bootmagic": true,
-        "command": false,
-        "console": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": false,
-        "rgblight": false,
-        "unicode": true
-    },
     "debounce": 5,
     "features": {
         "audio": false,
@@ -32,7 +20,6 @@
         "rgblight": false,
         "unicode": true
     },
-    "keyboard_folder": "ferris/sweep_choc_mbuk",
     "keymaps": {},
     "matrix_pins": {
         "direct": [
@@ -45,9 +32,6 @@
     "matrix_size": {
         "cols": 5,
         "rows": 8
-    },
-    "mouse_key": {
-        "enabled": true
     },
     "processor": "atmega32u4",
     "processor_type": "avr",
@@ -84,9 +68,7 @@
     },
     "layouts": {
         "LAYOUT_split_3x5_2": {
-            "c_macro": true,
             "filename": "keyboards/ferris/sweep_choc_mbuk/sweep_choc_mbuk.h",
-            "json_layout": false,
             "layout": [
                 { "label": "L01", "matrix": [0, 0], "w": 1, "x": 0, "y": 0 },
                 { "label": "L02", "matrix": [0, 1], "w": 1, "x": 1, "y": 0 },
